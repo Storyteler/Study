@@ -1,11 +1,12 @@
 package cn.shuoshuge;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.Iterator;
-import java.util.List;
 import java.util.Set;
 import java.util.Vector;
+import java.util.HashSet;
+/*import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Vector;*/
 
 /**
  * @author fuzefeng
@@ -40,13 +41,17 @@ public class Test {
 			
 		}*/
 
-/*		Vector<String> list = new Vector<String>();
+		Vector<String> list = new Vector<String>();
 		list.add("Hello");
 		list.add("World");
 		list.add(1,"amazing");
 		list.add("Hello");
 		list.addElement("hao");
-		*/
+		
+		for(String str : list) {
+			System.out.println(str);
+		}
+		
 		
 		/*System.out.println(list.firstElement());
 		System.out.println(list.lastElement());*/
