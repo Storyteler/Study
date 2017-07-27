@@ -12,3 +12,5 @@ insert into user(user_name,user_tel) values('fu',default);
 insert into user(user_name,user_tel) values('fneg','130');
 insert into user(user_name,user_tel) values('hao','140');
 insert into user(user_name,user_tel) values('xin','150');
+
+select * from user;
