@@ -1,4 +1,4 @@
-package com.shuoshuge;
+package com.shuoshuge.test;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
