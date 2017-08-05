@@ -1,10 +1,12 @@
 package cn.shuoshuge.dao;
 
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.List;
 
 import cn.shuoshuge.entity.Student;
 import cn.shuoshuge.util.DbHelp;
-import cn.shuoshuge.util.StudentRowMapper;
+import cn.shuoshuge.util.RowMapper;
 
 public class StudentDao {
 
@@ -43,7 +45,17 @@ public class StudentDao {
 		return DbHelp.executeQueryAll(sql, new StudentRowMapper());
 	}
 
-	
+	public class StudentRowMapper implements RowMapper {
+
+		public Object rowMapper(ResultSet rs) throws SQLException  {
+		Student stu = new Student();
+		stu.setId(rs.getInt("id"));
+		stu.setName(rs.getString("stu_name"));
+		
+		return stu;
+	}
+
+}
 	
 	
 	
