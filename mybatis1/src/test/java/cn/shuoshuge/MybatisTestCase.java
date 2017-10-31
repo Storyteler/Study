@@ -1,5 +1,6 @@
 package cn.shuoshuge;
 
+import cn.shuoshuge.pojo.Dept;
 import cn.shuoshuge.pojo.User;
 import cn.shuoshuge.util.GetSqlSessionFactory;
 import org.apache.ibatis.io.Resources;
@@ -10,6 +11,7 @@ import org.junit.Test;
 
 import java.io.IOException;
 import java.io.Reader;
+import java.util.List;
 
 public class MybatisTestCase {
 
@@ -53,6 +55,16 @@ public class MybatisTestCase {
         sqlSession.delete("cn.shuoshuge.mapper.UserMapper.delete",1);
         sqlSession.close();
 
+    }
+
+    @Test
+    public void findAll() {
+        SqlSession sqlSession = GetSqlSessionFactory.getSqlSession(true);
+        List<Dept> list = sqlSession.selectList("cn.shuoshuge.mapper.DeptMapper.findAll");
+        for (Dept dept : list) {
+            System.out.println(dept);
+        }
+        sqlSession.close();
     }
 
 }

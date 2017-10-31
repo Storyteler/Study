@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="cn.shuoshuge.mapper.EmployeeMapper">
+
+    <select id="findAll" resultType="Employee">
+        SELECT
+        employee.id,emp_name,dept_id,
+        dept.id as 'dept.id',dept_name as 'dept.deptName'
+        FROM
+        employee
+        INNER JOIN dept ON employee.dept_id = dept.id
+    </select>
+
+    <select id="findById" parameterType="int" resultMap="empMap">
+        SELECT
+        employee.id,emp_name,dept_id,
+        dept.id,dept_name
+        FROM
+        employee
+        INNER JOIN dept ON employee.dept_id = dept.id
+        WHERE
+        employee.id = #{id}
+    </select>
+    <!--当一个实例中存在另一个实例作为属性，需要进行配置结果集映射，也可以使用别名-->
+    <resultMap id="empMap" type="Employee">
+        <id column="id" property="id"/>
+        <result column="emp_name" property="empName"/>
+        <result column="dept_id" property="deptId"/>
+        <association property="dept" javaType="Dept" column="dept_id">
+            <id column="id" property="id"/>
+            <result column="dept_name" property="deptName"/>
+        </association>
+    </resultMap>
+
+    <!--以下为使用别名，效果与上方相同-->
+    <!--<select id="findById" parameterType="int" resultType="Employee">-->
+        <!--SELECT-->
+            <!--employee.id,emp_name,dept_id,-->
+            <!--dept.id as 'dept.id',dept_name as 'dept.deptName'-->
+        <!--FROM-->
+            <!--employee-->
+        <!--INNER JOIN dept ON employee.dept_id = dept.id-->
+        <!--WHERE-->
+            <!--employee.id = #{id}-->
+    <!--</select>-->
+
+
+
+</mapper>

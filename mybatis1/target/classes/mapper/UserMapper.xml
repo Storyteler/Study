@@ -17,4 +17,8 @@
         DELETE FROM user WHERE id = #{id};
     </delete>
 
+    <select id="findAll" resultType="User">
+        SELECT * FROM dept;
+    </select>
+
 </mapper>
