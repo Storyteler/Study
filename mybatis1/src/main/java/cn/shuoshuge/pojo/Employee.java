@@ -21,7 +21,6 @@ public class Employee {
                 "id=" + id +
                 ", empName='" + empName + '\'' +
                 ", deptId=" + deptId +
-                ", deptName=" + dept.getDeptName() +
                 '}';
     }
 

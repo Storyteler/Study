@@ -20,6 +20,17 @@ public class EmployeeTestCase {
     }
 
     @Test
+    public void findByDeptId() {
+        SqlSession session = GetSqlSessionFactory.getSqlSession(true);
+        EmployeeMapper employeeMapper = session.getMapper(EmployeeMapper.class);
+        List<Employee> list = employeeMapper.findByDeptId(1);
+        for (Employee employee : list) {
+            System.out.println(employee);
+        }
+        session.close();
+    }
+
+    @Test
     public void findAll() {
         SqlSession session = GetSqlSessionFactory.getSqlSession(true);
         EmployeeMapper employeeMapper = session.getMapper(EmployeeMapper.class);

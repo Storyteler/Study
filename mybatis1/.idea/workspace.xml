@@ -2,20 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31353c30-30ce-4658-8010-77a6a5f75d54" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/cn/shuoshuge/MybatisTestCase.class" afterPath="$PROJECT_DIR$/target/test-classes/cn/shuoshuge/MybatisTestCase.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/DeptMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/DeptMapperTestCase.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/cn/shuoshuge/EmployeeTestCase.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/shuoshuge/mapper/EmployeeMapper.class" afterPath="$PROJECT_DIR$/target/classes/cn/shuoshuge/mapper/EmployeeMapper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/shuoshuge/pojo/Dept.class" afterPath="$PROJECT_DIR$/target/classes/cn/shuoshuge/pojo/Dept.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/cn/shuoshuge/pojo/Employee.class" afterPath="$PROJECT_DIR$/target/classes/cn/shuoshuge/pojo/Employee.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mybatis.xml" afterPath="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/MybatisTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/MybatisTestCase.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserMapper.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mybatis.xml" afterPath="$PROJECT_DIR$/target/classes/mybatis.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java" afterPath="$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/DeptMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/DeptMapper.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/EmployeeMapper.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,59 +45,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="EmployeeMapper.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <file leaf-file-name="DeptMapperTestCase.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/DeptMapperTestCase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+            <state relative-caret-position="514">
+              <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
               <folding>
-                <marker date="1509445937492" expanded="true" signature="278:432" ph="SELECT emplo... employee" />
-                <marker date="1509445937492" expanded="true" signature="522:718" ph="SELECT emplo... employee" />
-                <marker date="1509445937492" expanded="true" signature="1306:1599" ph="SELECT emplo... employee" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#1588#1594#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="EmployeeTestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java">
+      <file leaf-file-name="DeptMapper.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="257">
+              <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1509470553076" expanded="true" signature="269:287" ph="SELECT * FRO... dept" />
+                <marker date="1509470553076" expanded="true" signature="299:377" ph="SELECT * FRO... dept" />
+                <marker date="1509470553076" expanded="true" signature="846:881" ph="SELECT * FRO... dept" />
+                <marker date="1509470553076" expanded="true" signature="929:963" ph="insert into dept... " />
+                <marker date="1509470553076" expanded="true" signature="1151:1169" ph="select * fro... dept" />
+                <marker date="1509470553076" expanded="true" signature="1452:1471" ph="SELECT * FRO... dept" />
+                <marker date="1509470553076" expanded="true" signature="1711:1956" ph="SELECT * fro... dept" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
+      <file leaf-file-name="DeptMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/DeptMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="385">
-              <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+            <state relative-caret-position="187">
+              <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="mybatis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <file leaf-file-name="Dept.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="455">
-              <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="EmployeeMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="35">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#239#240#0" expanded="true" />
+                <element signature="e#279#280#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -106,9 +104,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="mybatis xml modul" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -135,15 +133,17 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/.gtignore" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" />
         <option value="$PROJECT_DIR$/src/test/java/cn/shuoshuge/MybatisTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java" />
-        <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java" />
-        <option value="$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java" />
         <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/DeptMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java" />
+        <option value="$PROJECT_DIR$/src/test/java/cn/shuoshuge/DeptMapperTestCase.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml" />
       </list>
     </option>
   </component>
@@ -191,6 +191,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -218,44 +219,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shuoshuge" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MybatisTestCase" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ClassTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mybatis1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="shuoshuge" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -413,7 +376,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -422,112 +384,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.eslint.eslintPackage" value="" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
-  <component name="RunManager" selected="JUnit.EmployeeTestCase.findAll">
-    <configuration default="false" name="MybatisTestCase.readxml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.shuoshuge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
-      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.MybatisTestCase" />
-      <option name="METHOD_NAME" value="readxml" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MybatisTestCase.delete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.shuoshuge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
-      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.MybatisTestCase" />
-      <option name="METHOD_NAME" value="delete" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="MybatisTestCase.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.shuoshuge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
-      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.MybatisTestCase" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="EmployeeTestCase.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="cn.shuoshuge.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="mybatis1" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
-      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.EmployeeTestCase" />
-      <option name="METHOD_NAME" value="findById" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="JUnit.DeptMapperTestCase.save">
     <configuration default="false" name="EmployeeTestCase.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -541,6 +400,110 @@
       <option name="PACKAGE_NAME" value="cn.shuoshuge" />
       <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.EmployeeTestCase" />
       <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeptMapperTestCase.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.shuoshuge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
+      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.DeptMapperTestCase" />
+      <option name="METHOD_NAME" value="findAll" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="EmployeeTestCase.findByDeptId" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.shuoshuge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
+      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.EmployeeTestCase" />
+      <option name="METHOD_NAME" value="findByDeptId" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeptMapperTestCase.findByIdAndName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.shuoshuge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
+      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.DeptMapperTestCase" />
+      <option name="METHOD_NAME" value="findByIdAndName" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="false" name="DeptMapperTestCase.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="cn.shuoshuge.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="mybatis1" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="cn.shuoshuge" />
+      <option name="MAIN_CLASS_NAME" value="cn.shuoshuge.DeptMapperTestCase" />
+      <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -935,19 +898,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.readxml" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.delete" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.findAll" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findById" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findAll" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findAll" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.findAll" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findByDeptId" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.findByIdAndName" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.save" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findAll" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findById" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.findAll" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.delete" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.MybatisTestCase.readxml" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.save" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.findByIdAndName" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.DeptMapperTestCase.findAll" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findByDeptId" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.EmployeeTestCase.findAll" />
       </list>
     </recent_temporary>
   </component>
@@ -967,43 +930,46 @@
       <workItem from="1509406874584" duration="4215000" />
       <workItem from="1509434779124" duration="3588000" />
       <workItem from="1509439429997" duration="5541000" />
+      <workItem from="1509448842164" duration="850000" />
+      <workItem from="1509454569262" duration="4678000" />
+      <workItem from="1509467143591" duration="3505000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="EmployeeTestCase_findAll - 2017.10.31 at 18h 20m 40s.xml">
-      <configuration name="EmployeeTestCase.findAll" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 00h 55m 13s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findAll - 2017.10.31 at 18h 21m 30s.xml">
-      <configuration name="EmployeeTestCase.findAll" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 00h 57m 09s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findAll - 2017.10.31 at 18h 24m 49s.xml">
-      <configuration name="EmployeeTestCase.findAll" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 01h 01m 52s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findAll - 2017.10.31 at 18h 25m 57s.xml">
-      <configuration name="EmployeeTestCase.findAll" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 01h 02m 16s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 00m 38s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 01h 04m 06s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 01m 05s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 01h 04m 31s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 07m 09s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_findByIdAndName - 2017.11.01 at 01h 17m 48s.xml">
+      <configuration name="DeptMapperTestCase.findByIdAndName" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 08m 03s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_save - 2017.11.01 at 01h 18m 01s.xml">
+      <configuration name="DeptMapperTestCase.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 09m 55s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_save - 2017.11.01 at 01h 19m 07s.xml">
+      <configuration name="DeptMapperTestCase.save" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="EmployeeTestCase_findById - 2017.10.31 at 18h 12m 57s.xml">
-      <configuration name="EmployeeTestCase.findById" configurationId="JUnit" />
+    <history-entry file="DeptMapperTestCase_save - 2017.11.01 at 01h 22m 36s.xml">
+      <configuration name="DeptMapperTestCase.save" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23309000" />
+    <option name="totallyTimeSpent" value="32342000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1025,7 +991,7 @@
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.27909604" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1036,12 +1002,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32192513" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19491525" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20338982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1049,6 +1014,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1058,7 +1024,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1066,6 +1034,197 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="560">
+          <caret line="16" column="30" lean-forward="true" selection-start-line="16" selection-start-column="30" selection-end-line="16" selection-end-column="49" />
+          <folding>
+            <marker date="1509466982795" expanded="true" signature="278:464" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="561:609" ph="SELECT * fro... employee" />
+            <marker date="1509466982795" expanded="true" signature="699:895" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="1851:2144" ph="SELECT emplo... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="7" column="22" lean-forward="true" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="45" lean-forward="false" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+          <folding>
+            <element signature="e#776#777#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#839#840#0" expanded="false" />
+            <element signature="e#867#868#0" expanded="false" />
+            <element signature="e#902#903#0" expanded="false" />
+            <element signature="e#933#934#0" expanded="false" />
+            <element signature="e#981#982#0" expanded="false" />
+            <element signature="e#1021#1022#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/DeptMapperTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1050">
+          <caret line="41" column="30" lean-forward="true" selection-start-line="41" selection-start-column="30" selection-end-line="41" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1588#1594#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="700">
+          <caret line="20" column="66" lean-forward="true" selection-start-line="20" selection-start-column="66" selection-end-line="20" selection-end-column="66" />
+          <folding>
+            <marker date="1509470553076" expanded="true" signature="269:287" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="299:377" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="846:881" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="929:963" ph="insert into dept... " />
+            <marker date="1509470553076" expanded="true" signature="1151:1169" ph="select * fro... dept" />
+            <marker date="1509470553076" expanded="true" signature="1452:1471" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="1711:1956" ph="SELECT * fro... dept" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="10" column="57" lean-forward="false" selection-start-line="10" selection-start-column="57" selection-end-line="10" selection-end-column="57" />
+          <folding>
+            <marker date="1509466982795" expanded="true" signature="278:464" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="561:609" ph="SELECT * fro... employee" />
+            <marker date="1509466982795" expanded="true" signature="699:895" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="1851:2144" ph="SELECT emplo... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="19" column="34" lean-forward="false" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1509466982795" expanded="true" signature="278:464" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="561:609" ph="SELECT * fro... employee" />
+            <marker date="1509466982795" expanded="true" signature="699:895" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="1851:2144" ph="SELECT emplo... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="665">
+          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1225">
+          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/MybatisTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1104,7 +1263,13 @@
         <state relative-caret-position="245">
           <caret line="7" column="38" lean-forward="true" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
           <folding>
-            <marker date="1509438421347" expanded="true" signature="270:288" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="269:287" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="299:377" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="846:881" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="929:963" ph="insert into dept... " />
+            <marker date="1509470553076" expanded="true" signature="1151:1169" ph="select * fro... dept" />
+            <marker date="1509470553076" expanded="true" signature="1452:1471" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="1711:1956" ph="SELECT * fro... dept" />
           </folding>
         </state>
       </provider>
@@ -1266,44 +1431,36 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml">
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/ee069a55-f995-466b-9d32-83fec0a1959b/console.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="7" column="38" lean-forward="false" selection-start-line="7" selection-start-column="38" selection-end-line="7" selection-end-column="38" />
-          <folding>
-            <marker date="1509438421347" expanded="true" signature="270:288" ph="SELECT * FRO... dept" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="455">
-          <caret line="35" column="37" lean-forward="false" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+        <state relative-caret-position="280">
+          <caret line="13" column="38" lean-forward="true" selection-start-line="13" selection-start-column="38" selection-end-line="13" selection-end-column="38" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_101/src.zip!/java/lang/Object.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="11" column="26" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="385">
-          <caret line="19" column="34" lean-forward="true" selection-start-line="19" selection-start-column="34" selection-end-line="19" selection-end-column="34" />
-          <folding />
+        <state relative-caret-position="301">
+          <caret line="234" column="18" lean-forward="false" selection-start-line="234" selection-start-column="18" selection-end-line="234" selection-end-column="18" />
+          <folding>
+            <element signature="e#10065#10066#0" expanded="false" />
+            <element signature="e#10148#10149#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/EmployeeMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="350">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1312,8 +1469,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/EmployeeTestCase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="257">
+          <caret line="27" column="39" lean-forward="false" selection-start-line="27" selection-start-column="39" selection-end-line="27" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1322,12 +1479,67 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/EmployeeMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="27" column="22" lean-forward="false" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
+        <state relative-caret-position="253">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
-            <marker date="1509445937492" expanded="true" signature="278:432" ph="SELECT emplo... employee" />
-            <marker date="1509445937492" expanded="true" signature="522:718" ph="SELECT emplo... employee" />
-            <marker date="1509445937492" expanded="true" signature="1306:1599" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="278:464" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="561:609" ph="SELECT * fro... employee" />
+            <marker date="1509466982795" expanded="true" signature="699:895" ph="SELECT emplo... employee" />
+            <marker date="1509466982795" expanded="true" signature="1851:2144" ph="SELECT emplo... employee" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="7" column="22" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/pojo/Dept.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="e#239#240#0" expanded="true" />
+            <element signature="e#279#280#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/cn/shuoshuge/mapper/DeptMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="12" column="9" lean-forward="false" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DeptMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="29" column="46" lean-forward="false" selection-start-line="29" selection-start-column="46" selection-end-line="29" selection-end-column="46" />
+          <folding>
+            <marker date="1509470553076" expanded="true" signature="269:287" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="299:377" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="846:881" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="929:963" ph="insert into dept... " />
+            <marker date="1509470553076" expanded="true" signature="1151:1169" ph="select * fro... dept" />
+            <marker date="1509470553076" expanded="true" signature="1452:1471" ph="SELECT * FRO... dept" />
+            <marker date="1509470553076" expanded="true" signature="1711:1956" ph="SELECT * fro... dept" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/cn/shuoshuge/DeptMapperTestCase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="70" column="22" lean-forward="false" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1588#1594#0" expanded="true" />
           </folding>
         </state>
       </provider>

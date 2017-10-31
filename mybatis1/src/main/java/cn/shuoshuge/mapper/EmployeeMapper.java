@@ -8,5 +8,6 @@ public interface EmployeeMapper {
 
     Employee findById(Integer id);
     List<Employee> findAll();
+    List<Employee> findByDeptId(Integer id);
 
 }

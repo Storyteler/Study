@@ -8,10 +8,14 @@
     <select id="findAll" resultType="Employee">
         SELECT
         employee.id,emp_name,dept_id,
-        dept.id as 'dept.id',dept_name as 'dept.deptName'
+        dept.id AS 'dept.id',dept_name AS 'dept.deptName'
         FROM
         employee
         INNER JOIN dept ON employee.dept_id = dept.id
+    </select>
+
+    <select id="findByDeptId" parameterType="int" resultType="Employee">
+        SELECT * from employee WHERE dept_id = #{deptId}
     </select>
 
     <select id="findById" parameterType="int" resultMap="empMap">
@@ -24,8 +28,16 @@
         WHERE
         employee.id = #{id}
     </select>
-    <!--当一个实例中存在另一个实例作为属性，需要进行配置结果集映射，也可以使用别名-->
+
+    <!--在association中使用SQL语句配置结果集映射-->
     <resultMap id="empMap" type="Employee">
+        <id column="id" property="id"/>
+        <result column="emp_name" property="empName"/>
+        <result column="dept_id" property="deptId"/>
+        <association property="dept" javaType="Dept" column="dept_id" select="cn.shuoshuge.mapper.DeptMapper"/>
+    </resultMap>
+    <!--当一个实例中存在另一个实例作为属性，需要进行配置结果集映射，也可以使用别名-->
+<!--    <resultMap id="empMap" type="Employee">
         <id column="id" property="id"/>
         <result column="emp_name" property="empName"/>
         <result column="dept_id" property="deptId"/>
@@ -33,7 +45,7 @@
             <id column="id" property="id"/>
             <result column="dept_name" property="deptName"/>
         </association>
-    </resultMap>
+    </resultMap>-->
 
     <!--以下为使用别名，效果与上方相同-->
     <!--<select id="findById" parameterType="int" resultType="Employee">-->

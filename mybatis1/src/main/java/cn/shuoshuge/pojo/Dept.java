@@ -1,9 +1,31 @@
 package cn.shuoshuge.pojo;
 
+import java.util.List;
+
 public class Dept {
+
+    public Dept() {}
+
+    public Dept(Integer id , String deptName) {
+        this.id = id;
+        this.deptName = deptName;
+    }
+
+    public Dept(String deptName) {
+        this.deptName = deptName;
+    }
 
     private Integer id;
     private String deptName;
+    private List<Employee> employeeList;
+
+    public List<Employee> getEmployeeList() {
+        return employeeList;
+    }
+
+    public void setEmployeeList(List<Employee> employeeList) {
+        this.employeeList = employeeList;
+    }
 
     @Override
     public String toString() {
