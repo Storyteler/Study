@@ -9,11 +9,11 @@ public class UserDaoImp implements UserDao {
     }
 
     public void select() {
-        System.out.println("selecet");
+        System.out.println("selecet...........");
     }
 
     public void update() {
-        System.out.println("update");
+        System.out.println("update...........");
     }
 
 }

@@ -4,6 +4,14 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
         http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="userDaoImp" class="cn.shuoshuge.dao.imp.UserDaoImp" scope="singleton" lazy-init="true"></bean>
+    <!--<bean id="userDaoImp" class="cn.shuoshuge.dao.imp.UserDaoImp" scope="singleton" lazy-init="true"></bean>-->
+    <bean id="userDao" class="cn.shuoshuge.dao.imp.UserDaoImp"></bean>
+    <bean id="userServiceImp" class="cn.shuoshuge.service.imp.UserServiceImp" autowire="byName"/>
+<!--    <bean id="userServiceImp" class="cn.shuoshuge.service.imp.UserServiceImp">
+        <constructor-arg name="userDao" ref="userDao"/>
+    </bean>-->
+<!--    <bean id="userServiceImp" class="cn.shuoshuge.service.imp.UserServiceImp">
+        <property name="userDao" ref="userDaoImp"/>
+    </bean>-->
 
 </beans>
