@@ -5,7 +5,9 @@
 
 <mapper namespace="cn.shuoshuge.mapper.DeptMapper">
 
-    <select id="findAll" resultMap="allMap">
+    <cache size="2042" readOnly="false" eviction="FIFO" flushInterval="60000"/>
+
+    <select useCache="false" id="findAll" resultMap="allMap">
       SELECT * FROM dept
 --         SELECT dept.id,dept_name,
 --         employee.id,emp_name
@@ -21,9 +23,9 @@
                     select="cn.shuoshuge.mapper.EmployeeMapper.findByDeptId"/>
     </resultMap>
 
-    <select id="findById" parameterType="int" resultType="Dept">
+<!--    <select id="findById" parameterType="int" resultType="Dept">
         SELECT * FROM dept WHERE id = #{id};
-    </select>
+    </select>-->
 
     <insert id="save">
         insert into dept(dept_name) values

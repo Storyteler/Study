@@ -34,7 +34,8 @@
 
     <mappers>
         <mapper resource="mapper/UserMapper.xml"/>
-        <mapper resource="mapper/DeptMapper.xml"/>
+        <!--<mapper resource="mapper/DeptMapper.xml"/>-->
         <mapper resource="mapper/EmployeeMapper.xml"/>
+        <mapper class="cn.shuoshuge.mapper.DeptMapper"/>
     </mappers>
 </configuration>

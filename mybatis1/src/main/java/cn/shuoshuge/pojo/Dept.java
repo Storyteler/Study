@@ -1,8 +1,9 @@
 package cn.shuoshuge.pojo;
 
+import java.io.Serializable;
 import java.util.List;
 
-public class Dept {
+public class Dept implements Serializable {
 
     public Dept() {}
 

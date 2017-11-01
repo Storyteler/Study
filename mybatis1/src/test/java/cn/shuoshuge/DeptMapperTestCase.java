@@ -71,4 +71,5 @@ public class DeptMapperTestCase {
         deptMapper.save(deptList);
     }
 
+
 }
