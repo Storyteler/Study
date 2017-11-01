@@ -1,7 +1,9 @@
 package cn.shuoshuge.dao.imp;
 
 import cn.shuoshuge.dao.UserDao;
+import org.springframework.stereotype.Component;
 
+@Component
 public class UserDaoImp implements UserDao {
 
     public UserDaoImp() {

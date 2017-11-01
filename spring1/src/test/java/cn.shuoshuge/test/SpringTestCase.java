@@ -19,6 +19,7 @@ public class SpringTestCase {
 
     @Test
     public void getUserDao() {
+/*
 
         Enhancer enhancer = new Enhancer();
         enhancer.setSuperclass(RealSubject.class);
@@ -26,6 +27,7 @@ public class SpringTestCase {
 
         RealSubject realSubject = (RealSubject) enhancer.create();
         realSubject.save();
+*/
 
 /*        RealSubject realSubject = new RealSubject();
         SubjectInvocationHandler subjectInvocationHandler = new SubjectInvocationHandler(realSubject);
@@ -34,10 +36,10 @@ public class SpringTestCase {
         subject.save();
         subject.sayHellp();*/
 
-/*        ApplicationContext applicationContext =
+        ApplicationContext applicationContext =
                 new ClassPathXmlApplicationContext("applicationContext.xml");
         UserServiceImp userService = applicationContext.getBean("userServiceImp", UserServiceImp.class);
-        userService.select();*/
+        userService.select();
 
 //        UserDao userDao = (UserDao) applicationContext.getBean("userDaoImp");
 /*        UserDao userDao = applicationContext.getBean("userDaoImp",UserDaoImp.class);
@@ -46,6 +48,13 @@ public class SpringTestCase {
         userDao.select();
         userDao.update();*/
 
+    }
+    @Test
+    public void te() {
+        ApplicationContext applicationContext =
+                new ClassPathXmlApplicationContext("applicationContext.xml");
+        UserService userService = (UserService) applicationContext.getBean("userServiceImp");
+        userService.select();
     }
 
 }
